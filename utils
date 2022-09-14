@@ -1,0 +1,6 @@
+PUSH BX
+    MOVB AL, BL
+    DIVB 4(BP) // 4)BP == DIM
+    MOVB BL, AL
+    MOVB AL, (BX)(DI)
+    POP BX
