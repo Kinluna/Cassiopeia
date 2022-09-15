@@ -73,6 +73,8 @@ ciclo_stampa:
     XOR AX, AX
 
     *add stuff*
+    
+     XORB AH, AH
 
 	PUSH AX
 	PUSH s
